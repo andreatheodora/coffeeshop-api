@@ -39,7 +39,7 @@ exports.findAll = (req, res) => {
         })
         .catch(err => {
             res.status(500).send({
-                message: err.message || "Some error occured while retrieving Tutorials."
+                message: err.message || "Some error occured while retrieving Menu."
             });
         });
 };
