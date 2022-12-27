@@ -6,7 +6,8 @@ module.exports = mongoose => {
             description: String,
             baseIngredients: Array,
             optionalIngredients: Array,
-            basePrice: Array
+            basePrice: Array,
+            imageUrl: String
         },
         {
             timestamps: true
