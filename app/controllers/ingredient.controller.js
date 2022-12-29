@@ -13,7 +13,8 @@ exports.create = (req, res) => {
         name: req.body.name,
         category: req.body.category ?? '',
         stock: req.body.stock,
-        price: req.body.price
+        price: req.body.price,
+        imageUrl: req.body.imageUrl
     });
 
     ingredient
