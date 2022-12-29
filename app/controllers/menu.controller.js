@@ -14,7 +14,8 @@ exports.create = (req, res) => {
         description: req.body.description,
         baseIngredients: req.body.baseIngredients,
         optionalIngredients: req.body.optionalIngredients ?? [],
-        basePrice: req.body.basePrice
+        basePrice: req.body.basePrice,
+        imageUrl: req.body.imageUrl
     });
 
     menu
